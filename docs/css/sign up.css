@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: "Jua";
+  padding: 20px;
+}
+
+@font-face {
+  src: url("../fonts/BMJUA_otf.otf");
+  font-family: "Jua";
+}
+
+body {
+  margin: 0;
+}
+
+.logo {
+  text-align: center;
+}
+
+.login-form {
+  width: 500px;
+  background-color: #eeeeee;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.text-field {
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.submit-btn {
+  font-size: 21px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+}
+
+.links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #9B9B9B;
+}

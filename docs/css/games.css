@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  font-family: "Jua";
+}
+
+@font-face {
+  src: url("../fonts/BMJUA_otf.otf");
+  font-family: "Jua";
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+}
+
+.product .info {
+  padding: 20px;
+}
+
+.navbar {
+  height: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar #logo {
+  line-height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar #logo img {
+  vertical-align: middle;
+}
+
+.navbar #menu {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar #menu li {
+  float: left;
+  margin-left: 50px;
+  line-height: 60px;
+}
+
+.navbar #menu li a {
+  color: #545454;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+#menu li a:hover{
+  background-color: #eeeeee;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.hero-header {
+  height: 450px;
+  background-image: url("../images/hero_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.games h3 {
+  font-size: 24px;
+  color: #545454;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.game {
+  width: 900px;
+  display: block;
+  color: #545454;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 147px;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.game-name {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.game-information {
+  text-align: left;
+}
+
+.games .info {
+  padding: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
